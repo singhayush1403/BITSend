@@ -7,12 +7,10 @@
     android:background="#ffffff"
     tools:context=".SplashScreen">
 
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="428dp"
-        android:layout_height="417dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/su_logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
